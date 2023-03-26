@@ -1,8 +1,10 @@
 # Monocular-Omni-Human-Pose-Estimation
 
-The following repo uses an Anchorless Object Detection Module called CenterNet.
+The following repo perfoms Human Pose Estimation and Object Recognition (In this case person)
 
-To know more about CenterNet: https://arxiv.org/abs/1904.07850
+The following model can also be switched just for Object Recogtion Purposes.
+
+I used CenterNet for the following task. To know more about CenterNet: https://arxiv.org/abs/1904.07850
 
 ## Human Pose Estimation:
 Human Pose Estimation (HPE) is a way of identifying and classifying the joints in the human body.
