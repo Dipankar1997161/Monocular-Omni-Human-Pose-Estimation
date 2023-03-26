@@ -1,0 +1,143 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "Untitled"}, "version": 1}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "dst-mikrowelle"}, "version": 3}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 4}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stdout"]}, "version": 5}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stderr"]}, "version": 6}
+{"obj": {"type": "AssignString", "path": ["source_code", "entrypoint"], "value": "main.py"}, "version": 7}
+{"obj": {"type": "UploadFileSet", "path": ["source_code", "files"], "file_globs": ["/home/ndip/CenterNet/src/main.py"], "reset": "False"}, "version": 8}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "cpu"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 9}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "cpu"]}, "version": 10}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "memory"], "min": 0.0, "max": 62.64727783203125, "unit": "GB"}, "version": 11}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "memory"]}, "version": 12}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_0"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 13}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_0"]}, "version": 14}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_1"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 15}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_1"]}, "version": 16}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_memory_0"], "min": 0.0, "max": 24.0, "unit": "GB"}, "version": 17}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_memory_0"]}, "version": 18}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_memory_1"], "min": 0.0, "max": 24.0, "unit": "GB"}, "version": 19}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_memory_1"]}, "version": 20}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Creating model...", "step": null, "ts": 1651918026.6248956}]}, "version": 21}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918026.6253676}]}, "version": 22}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 2.4, "step": null, "ts": 1651918026.619102}]}, "version": 23}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 3.2413597106933594, "step": null, "ts": 1651918026.619102}]}, "version": 24}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_0"], "values": [{"value": 1.36846923828125, "step": null, "ts": 1651918026.619102}]}, "version": 25}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_1"], "values": [{"value": 0.47027587890625, "step": null, "ts": 1651918026.619102}]}, "version": 26}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "loaded /home/ndip/CenterNet/src/lib/../../exp/multi_pose/dla_1x/model_last.pth, epoch 38", "step": null, "ts": 1651918027.0021806}]}, "version": 27}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918027.0024092}]}, "version": 28}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Resumed optimizer with start lr", "step": null, "ts": 1651918027.0965867}]}, "version": 29}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1651918027.0967672}]}, "version": 30}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "1e-05", "step": null, "ts": 1651918027.0968392}]}, "version": 31}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918027.09692}]}, "version": 32}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Setting up data...", "step": null, "ts": 1651918028.6518383}]}, "version": 33}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.652057}]}, "version": 34}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "==> initializing theodore valid data.", "step": null, "ts": 1651918028.6525445}]}, "version": 35}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.6526227}]}, "version": 36}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "loading annotations into memory...", "step": null, "ts": 1651918028.6527069}]}, "version": 37}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.6527727}]}, "version": 38}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Done (t=0.26s)", "step": null, "ts": 1651918028.9080517}]}, "version": 39}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.9082553}]}, "version": 40}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "creating index...", "step": null, "ts": 1651918028.9083278}]}, "version": 41}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.9083967}]}, "version": 42}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "index created!", "step": null, "ts": 1651918028.918779}]}, "version": 43}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.9189878}]}, "version": 44}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Loaded valid 6250 samples", "step": null, "ts": 1651918028.9192002}]}, "version": 45}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.9192677}]}, "version": 46}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "==> initializing theodore train data.", "step": null, "ts": 1651918028.9196508}]}, "version": 47}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.9197242}]}, "version": 48}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "loading annotations into memory...", "step": null, "ts": 1651918028.9198048}]}, "version": 49}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918028.91987}]}, "version": 50}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Done (t=1.97s)", "step": null, "ts": 1651918030.8920426}]}, "version": 51}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918030.8922534}]}, "version": 52}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "creating index...", "step": null, "ts": 1651918030.892326}]}, "version": 53}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918030.8923922}]}, "version": 54}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "index created!", "step": null, "ts": 1651918030.9663503}]}, "version": 55}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918030.9665549}]}, "version": 56}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Loaded train 49917 samples", "step": null, "ts": 1651918031.1003253}]}, "version": 57}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918031.1005318}]}, "version": 58}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "learning_rate"], "value": 1e-05}, "version": 59}
+{"obj": {"type": "AssignString", "path": ["parameters", "optimizer"], "value": "Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n    eps: 1e-08\n    lr: 1e-05\n    weight_decay: 0\n)"}, "version": 60}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Starting training...", "step": null, "ts": 1651918031.1018555}]}, "version": 61}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1651918031.101935}]}, "version": 62}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.016423203268260675, "step": null, "ts": 1651918031.1020122}]}, "version": 63}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/nn/functional.py:52: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.\n  warnings.warn(warning.format(ret))\n", "step": null, "ts": 1651918034.7842925}]}, "version": 64}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/_functions.py:58: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n  warnings.warn('Was asked to gather along dimension 0, but all '\n", "step": null, "ts": 1651918034.8869598}]}, "version": 65}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 9.2, "step": null, "ts": 1651918036.6317177}]}, "version": 66}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.793292999267578, "step": null, "ts": 1651918036.6317177}]}, "version": 67}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_0"], "values": [{"value": 94.0, "step": null, "ts": 1651918036.6317177}]}, "version": 68}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_1"], "values": [{"value": 78.0, "step": null, "ts": 1651918036.6317177}]}, "version": 69}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_0"], "values": [{"value": 5.62725830078125, "step": null, "ts": 1651918036.6317177}]}, "version": 70}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_1"], "values": [{"value": 3.01690673828125, "step": null, "ts": 1651918036.6317177}]}, "version": 71}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 16.6, "step": null, "ts": 1651918046.6350284}]}, "version": 72}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.811546325683594, "step": null, "ts": 1651918046.6350284}]}, "version": 73}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_0"], "values": [{"value": 97.0, "step": null, "ts": 1651918046.6350284}]}, "version": 74}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_1"], "values": [{"value": 86.0, "step": null, "ts": 1651918046.6350284}]}, "version": 75}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_0"], "values": [{"value": 7.56671142578125, "step": null, "ts": 1651918046.6350284}]}, "version": 76}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_1"], "values": [{"value": 3.67706298828125, "step": null, "ts": 1651918046.6350284}]}, "version": 77}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 18.0, "step": null, "ts": 1651918056.6382976}]}, "version": 78}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.8221282958984375, "step": null, "ts": 1651918056.6382976}]}, "version": 79}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_0"], "values": [{"value": 97.0, "step": null, "ts": 1651918056.6382976}]}, "version": 80}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_1"], "values": [{"value": 85.0, "step": null, "ts": 1651918056.6382976}]}, "version": 81}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_0"], "values": [{"value": 7.56671142578125, "step": null, "ts": 1651918056.6382976}]}, "version": 82}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_1"], "values": [{"value": 3.67706298828125, "step": null, "ts": 1651918056.6382976}]}, "version": 83}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 17.8, "step": null, "ts": 1651918066.641147}]}, "version": 84}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.827442169189453, "step": null, "ts": 1651918066.641147}]}, "version": 85}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_0"], "values": [{"value": 97.0, "step": null, "ts": 1651918066.641147}]}, "version": 86}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_1"], "values": [{"value": 83.0, "step": null, "ts": 1651918066.641147}]}, "version": 87}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_0"], "values": [{"value": 7.56671142578125, "step": null, "ts": 1651918066.641147}]}, "version": 88}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_1"], "values": [{"value": 3.67706298828125, "step": null, "ts": 1651918066.641147}]}, "version": 89}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 17.9, "step": null, "ts": 1651918076.644613}]}, "version": 90}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 6.878227233886719, "step": null, "ts": 1651918076.644613}]}, "version": 91}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_0"], "values": [{"value": 97.0, "step": null, "ts": 1651918076.644613}]}, "version": 92}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_1"], "values": [{"value": 85.0, "step": null, "ts": 1651918076.644613}]}, "version": 93}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_0"], "values": [{"value": 7.56671142578125, "step": null, "ts": 1651918076.644613}]}, "version": 94}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_1"], "values": [{"value": 3.67706298828125, "step": null, "ts": 1651918076.644613}]}, "version": 95}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "Exception ignored in: ", "step": null, "ts": 1651918083.712395}]}, "version": 96}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "<bound method _DataLoaderIter.__del__ of <torch.utils.data.dataloader._DataLoaderIter object at 0x7f9d0814e828>>", "step": null, "ts": 1651918083.712612}]}, "version": 97}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.712706}]}, "version": 98}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "Traceback (most recent call last):\n", "step": null, "ts": 1651918083.7127852}]}, "version": 99}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py\", line 397, in __del__\n", "step": null, "ts": 1651918083.7128637}]}, "version": 100}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1651918083.713259}]}, "version": 101}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "def __del__(self):", "step": null, "ts": 1651918083.7133338}]}, "version": 102}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.7134078}]}, "version": 103}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/utils/data/dataloader.py\", line 227, in handler\n", "step": null, "ts": 1651918083.713483}]}, "version": 104}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1651918083.7136157}]}, "version": 105}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "_error_if_any_worker_fails()", "step": null, "ts": 1651918083.713685}]}, "version": 106}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.7137578}]}, "version": 107}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "RuntimeError", "step": null, "ts": 1651918083.7138252}]}, "version": 108}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": ": ", "step": null, "ts": 1651918083.7138903}]}, "version": 109}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "DataLoader worker (pid 2775675) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.", "step": null, "ts": 1651918083.7139544}]}, "version": 110}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.7140267}]}, "version": 111}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "traceback"], "values": [{"value": "An uncaught exception occurred while run was active on worker dst-mikrowelle.", "step": null, "ts": 1651918083.715635}, {"value": "Marking run as failed", "step": null, "ts": 1651918083.715635}, {"value": "Traceback:", "step": null, "ts": 1651918083.715635}, {"value": "  File \"main.py\", line 115, in <module>\n    main(opt)\n", "step": null, "ts": 1651918083.715635}, {"value": "  File \"main.py\", line 81, in main\n    log_dict_train, _ = trainer.train(epoch, train_loader)\n", "step": null, "ts": 1651918083.715635}, {"value": "  File \"/home/ndip/CenterNet/src/lib/trains/base_trainer.py\", line 119, in train\n    return self.run_epoch('train', epoch, data_loader)\n", "step": null, "ts": 1651918083.715635}, {"value": "  File \"/home/ndip/CenterNet/src/lib/trains/base_trainer.py\", line 73, in run_epoch\n    loss.backward()\n", "step": null, "ts": 1651918083.715635}, {"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/tensor.py\", line 93, in backward\n    torch.autograd.backward(self, gradient, retain_graph, create_graph)\n", "step": null, "ts": 1651918083.715635}, {"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/autograd/__init__.py\", line 90, in backward\n    allow_unreachable=True)  # allow_unreachable flag\n", "step": null, "ts": 1651918083.715635}, {"value": "", "step": null, "ts": 1651918083.715635}]}, "version": 112}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": true}, "version": 113}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "Traceback (most recent call last):\n", "step": null, "ts": 1651918083.7159877}]}, "version": 114}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"main.py\", line 115, in <module>\n", "step": null, "ts": 1651918083.716071}]}, "version": 115}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1651918083.7161999}]}, "version": 116}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "main(opt)", "step": null, "ts": 1651918083.71627}]}, "version": 117}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.7163436}]}, "version": 118}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"main.py\", line 81, in main\n", "step": null, "ts": 1651918083.7164168}]}, "version": 119}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1651918083.7165258}]}, "version": 120}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "log_dict_train, _ = trainer.train(epoch, train_loader)", "step": null, "ts": 1651918083.7165942}]}, "version": 121}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.7166665}]}, "version": 122}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/CenterNet/src/lib/trains/base_trainer.py\", line 119, in train\n", "step": null, "ts": 1651918083.7167394}]}, "version": 123}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1651918083.7168598}]}, "version": 124}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "return self.run_epoch('train', epoch, data_loader)", "step": null, "ts": 1651918083.716929}]}, "version": 125}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.717013}]}, "version": 126}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/CenterNet/src/lib/trains/base_trainer.py\", line 73, in run_epoch\n", "step": null, "ts": 1651918083.7170866}]}, "version": 127}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1651918083.717196}]}, "version": 128}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "loss.backward()", "step": null, "ts": 1651918083.7172642}]}, "version": 129}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.7173357}]}, "version": 130}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/tensor.py\", line 93, in backward\n", "step": null, "ts": 1651918083.7174084}]}, "version": 131}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1651918083.7175224}]}, "version": 132}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "torch.autograd.backward(self, gradient, retain_graph, create_graph)", "step": null, "ts": 1651918083.71759}]}, "version": 133}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.7176979}]}, "version": 134}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/autograd/__init__.py\", line 90, in backward\n", "step": null, "ts": 1651918083.7177718}]}, "version": 135}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1651918083.7178886}]}, "version": 136}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "allow_unreachable=True)  # allow_unreachable flag", "step": null, "ts": 1651918083.7179565}]}, "version": 137}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.718028}]}, "version": 138}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "KeyboardInterrupt", "step": null, "ts": 1651918083.7180989}]}, "version": 139}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "", "step": null, "ts": 1651918083.7181652}]}, "version": 140}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1651918083.718236}]}, "version": 141}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "", "step": null, "ts": 1651918083.7183995}]}, "version": 142}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Shutting down background jobs, please wait a moment...\n", "step": null, "ts": 1651918083.7185173}]}, "version": 143}

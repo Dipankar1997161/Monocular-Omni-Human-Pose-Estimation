@@ -1,0 +1,92 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "Untitled"}, "version": 1}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "dst-mikrowelle"}, "version": 3}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 4}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stdout"]}, "version": 5}
+{"obj": {"type": "ClearStringLog", "path": ["monitoring", "stderr"]}, "version": 6}
+{"obj": {"type": "AssignString", "path": ["source_code", "entrypoint"], "value": "main.py"}, "version": 7}
+{"obj": {"type": "UploadFileSet", "path": ["source_code", "files"], "file_globs": ["/home/ndip/CenterNet/src/main.py"], "reset": "False"}, "version": 8}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "cpu"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 9}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "cpu"]}, "version": 10}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "memory"], "min": 0.0, "max": 62.64727783203125, "unit": "GB"}, "version": 11}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "memory"]}, "version": 12}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_0"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 13}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_0"]}, "version": 14}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_1"], "min": 0.0, "max": 100.0, "unit": "%"}, "version": 15}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_1"]}, "version": 16}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_memory_0"], "min": 0.0, "max": 24.0, "unit": "GB"}, "version": 17}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_memory_0"]}, "version": 18}
+{"obj": {"type": "ConfigFloatSeries", "path": ["monitoring", "gpu_memory_1"], "min": 0.0, "max": 24.0, "unit": "GB"}, "version": 19}
+{"obj": {"type": "ClearFloatLog", "path": ["monitoring", "gpu_memory_1"]}, "version": 20}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Creating model...", "step": null, "ts": 1652020080.1035917}]}, "version": 21}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020080.1038148}]}, "version": 22}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "cpu"], "values": [{"value": 2.8, "step": null, "ts": 1652020080.097402}]}, "version": 23}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "memory"], "values": [{"value": 1.7101593017578125, "step": null, "ts": 1652020080.097402}]}, "version": 24}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_0"], "values": [{"value": 0.35302734375, "step": null, "ts": 1652020080.097402}]}, "version": 25}
+{"obj": {"type": "LogFloats", "path": ["monitoring", "gpu_memory_1"], "values": [{"value": 0.47027587890625, "step": null, "ts": 1652020080.097402}]}, "version": 26}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "loaded /home/ndip/CenterNet/src/lib/../../exp/multi_pose/dla_new/model_last.pth, epoch 7", "step": null, "ts": 1652020080.4453988}]}, "version": 27}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020080.4456923}]}, "version": 28}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Resumed optimizer with start lr", "step": null, "ts": 1652020080.535685}]}, "version": 29}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": " ", "step": null, "ts": 1652020080.535872}]}, "version": 30}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "0.0004", "step": null, "ts": 1652020080.535939}]}, "version": 31}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020080.5360184}]}, "version": 32}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py:24: UserWarning: \n    There is an imbalance between your GPUs. You may want to exclude GPU 1 which\n    has less than 75% of the memory or cores of GPU 0. You can do so by setting\n    the device_ids argument to DataParallel, or by setting the CUDA_VISIBLE_DEVICES\n    environment variable.\n  warnings.warn(imbalance_warn.format(device_ids[min_pos], device_ids[max_pos]))\n", "step": null, "ts": 1652020080.6020777}]}, "version": 33}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Setting up data...", "step": null, "ts": 1652020082.103863}]}, "version": 34}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.1040742}]}, "version": 35}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "==> initializing theodore valid data.", "step": null, "ts": 1652020082.1045647}]}, "version": 36}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.104644}]}, "version": 37}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "loading annotations into memory...", "step": null, "ts": 1652020082.1047285}]}, "version": 38}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.1047962}]}, "version": 39}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Done (t=0.25s)", "step": null, "ts": 1652020082.3542948}]}, "version": 40}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.3544915}]}, "version": 41}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "creating index...", "step": null, "ts": 1652020082.3545644}]}, "version": 42}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.3546324}]}, "version": 43}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "index created!", "step": null, "ts": 1652020082.364306}]}, "version": 44}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.3645124}]}, "version": 45}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Loaded valid 6250 samples", "step": null, "ts": 1652020082.364719}]}, "version": 46}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.364788}]}, "version": 47}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "==> initializing theodore train data.", "step": null, "ts": 1652020082.365219}]}, "version": 48}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.3652933}]}, "version": 49}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "loading annotations into memory...", "step": null, "ts": 1652020082.3653626}]}, "version": 50}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "\n", "step": null, "ts": 1652020082.3654313}]}, "version": 51}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "traceback"], "values": [{"value": "An uncaught exception occurred while run was active on worker dst-mikrowelle.", "step": null, "ts": 1652020084.4007463}, {"value": "Marking run as failed", "step": null, "ts": 1652020084.4007463}, {"value": "Traceback:", "step": null, "ts": 1652020084.4007463}, {"value": "  File \"main.py\", line 115, in <module>\n    main(opt)\n", "step": null, "ts": 1652020084.4007463}, {"value": "  File \"main.py\", line 67, in main\n    Dataset(opt, 'train'),\n", "step": null, "ts": 1652020084.4007463}, {"value": "  File \"/home/ndip/CenterNet/src/lib/datasets/dataset/theodore.py\", line 55, in __init__\n    self.coco = coco.COCO(self.annot_path)\n", "step": null, "ts": 1652020084.4007463}, {"value": "  File \"/home/ndip/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/coco.py\", line 84, in __init__\n    dataset = json.load(open(annotation_file, 'r'))\n", "step": null, "ts": 1652020084.4007463}, {"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/json/__init__.py\", line 299, in load\n    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)\n", "step": null, "ts": 1652020084.4007463}, {"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/json/__init__.py\", line 354, in loads\n    return _default_decoder.decode(s)\n", "step": null, "ts": 1652020084.4007463}, {"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/json/decoder.py\", line 339, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n", "step": null, "ts": 1652020084.4007463}]}, "version": 52}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "traceback"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/json/decoder.py\", line 355, in raw_decode\n    obj, end = self.scan_once(s, idx)\n", "step": null, "ts": 1652020084.4007463}, {"value": "", "step": null, "ts": 1652020084.4007463}]}, "version": 53}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": true}, "version": 54}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "Traceback (most recent call last):\n", "step": null, "ts": 1652020084.4011219}]}, "version": 55}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"main.py\", line 115, in <module>\n", "step": null, "ts": 1652020084.4011989}]}, "version": 56}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652020084.4013236}]}, "version": 57}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "main(opt)", "step": null, "ts": 1652020084.401388}]}, "version": 58}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4014533}]}, "version": 59}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"main.py\", line 67, in main\n", "step": null, "ts": 1652020084.4015193}]}, "version": 60}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652020084.401617}]}, "version": 61}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "Dataset(opt, 'train'), ", "step": null, "ts": 1652020084.4016783}]}, "version": 62}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4017427}]}, "version": 63}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/CenterNet/src/lib/datasets/dataset/theodore.py\", line 55, in __init__\n", "step": null, "ts": 1652020084.4018102}]}, "version": 64}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652020084.4019058}]}, "version": 65}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "self.coco = coco.COCO(self.annot_path)", "step": null, "ts": 1652020084.4019659}]}, "version": 66}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4020288}]}, "version": 67}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/.local/lib/python3.6/site-packages/pycocotools-2.0-py3.6-linux-x86_64.egg/pycocotools/coco.py\", line 84, in __init__\n", "step": null, "ts": 1652020084.4020936}]}, "version": 68}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652020084.4021928}]}, "version": 69}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "dataset = json.load(open(annotation_file, 'r'))", "step": null, "ts": 1652020084.4022524}]}, "version": 70}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4023159}]}, "version": 71}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/json/__init__.py\", line 299, in load\n", "step": null, "ts": 1652020084.4023805}]}, "version": 72}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652020084.402538}]}, "version": 73}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)", "step": null, "ts": 1652020084.4025981}]}, "version": 74}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4026618}]}, "version": 75}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/json/__init__.py\", line 354, in loads\n", "step": null, "ts": 1652020084.402729}]}, "version": 76}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652020084.4028866}]}, "version": 77}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "return _default_decoder.decode(s)", "step": null, "ts": 1652020084.4029472}]}, "version": 78}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4030108}]}, "version": 79}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/json/decoder.py\", line 339, in decode\n", "step": null, "ts": 1652020084.403076}]}, "version": 80}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652020084.4032066}]}, "version": 81}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "obj, end = self.raw_decode(s, idx=_w(s, 0).end())", "step": null, "ts": 1652020084.403267}]}, "version": 82}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4033298}]}, "version": 83}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "  File \"/home/ndip/miniconda3/envs/CenterNet/lib/python3.6/json/decoder.py\", line 355, in raw_decode\n", "step": null, "ts": 1652020084.4033945}]}, "version": 84}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "    ", "step": null, "ts": 1652020084.4035265}]}, "version": 85}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "obj, end = self.scan_once(s, idx)", "step": null, "ts": 1652020084.403587}]}, "version": 86}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4036503}]}, "version": 87}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "KeyboardInterrupt", "step": null, "ts": 1652020084.4037113}]}, "version": 88}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "", "step": null, "ts": 1652020084.4037683}]}, "version": 89}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stderr"], "values": [{"value": "\n", "step": null, "ts": 1652020084.4038312}]}, "version": 90}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "", "step": null, "ts": 1652020084.4039586}]}, "version": 91}
+{"obj": {"type": "LogStrings", "path": ["monitoring", "stdout"], "values": [{"value": "Shutting down background jobs, please wait a moment...\n", "step": null, "ts": 1652020084.404054}]}, "version": 92}
