@@ -1,4 +1,4 @@
-# Top-View-Human-Pose-Estimation
+# Monocular-Omni-Human-Pose-Estimation
 
 The following repo uses an Anchorless Object Detection Module called CenterNet.
 
