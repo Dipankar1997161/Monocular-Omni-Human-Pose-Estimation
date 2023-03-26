@@ -1,0 +1,122 @@
+COCO-pretrained
+
+HOURGLASS
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.348
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.502
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.410
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.384
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.518
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.448
+
+DLA
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.311
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.497
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.360
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.350
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.510
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.409
+---------------------------------------------------------------------------------
+Transfer Learning
+
+HOURGLASS
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.510
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.795
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.595
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.555
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.812
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.637
+
+
+DLA
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.292
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.596
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.262
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.645
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.348
+---------------------------------------------------------------------------------
+Train from scratch
+
+HOURGLASS
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.440
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.715
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.496
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.488
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.746
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.553
+
+DLA
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.389
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.677
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.396
+ 
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.444
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.717
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.478
+---------------------------------------------------------------------------------
+Train on Merged Dataset
+
+HOURGLASS
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.484
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.755
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.556
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.526
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.783
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.595
+
+
+DLA
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.412
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.683
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.458
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.444
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.701
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.495
+---------------------------------------------------------------------------------
+Train from Scratch with Noise
+
+HOURGLASS
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.000
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.000
+
+DLA
+Evaluate annotation type *keypoints*
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.000
+
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.000
+
