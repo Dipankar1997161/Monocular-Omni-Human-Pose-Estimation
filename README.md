@@ -29,7 +29,7 @@ Training was carried out on a Synthetic Dataset in order to check its effects in
 This was intentionally done since avaiiability of larger amount of dataset is not always feasible except COCO and others which are public dataset.
 
 A total of 10 experiments were carried out until the final results were depicted. 
-Transfer Learning, Training from Sratch, Training with Noise, Mixed Data Training are a few major ones.
+### Transfer Learning, Training from Sratch, Training with Noise, Mixed Data Training are a few major ones.
 
 The Project used 2 backbone architectures for CenterNet:
     
